@@ -1,0 +1,112 @@
+<style type="text/css">
+
+			body {
+				margin:0;
+				padding:40;
+				font-family: 'Playfair Display', serif;
+				line-height: 1.5em;
+			}
+
+			header {
+				background: #FCF4F4;
+				font-style: oblique;
+				margin-top: -40px;
+				padding-bottom: 20px;
+			}
+
+			#pagetitle {
+				margin: 10;
+				font-size: 21px;
+				margin-bottom: 10px;
+			}
+
+			#who {
+				margin-top: 60px;
+			}
+
+			main {
+				padding-bottom: 10000px;
+				margin-bottom: -10000px;
+				float: left;
+				width: 100%;
+			}
+
+			#nav {
+				padding-bottom: 10010px;
+				margin-bottom: -10000px;
+				float: left;
+				width: 230px;
+				margin-left: -100%;
+				background: #eee;
+			}
+
+			#footer {
+				clear: left;
+				width: 100%;
+				background: #ccc;
+				text-align: center;
+				padding: 4px 0;
+			}
+
+			#wrapper {
+				overflow: hidden;
+			}
+
+			#content {
+				margin-left: 230px; /* Same as 'nav' width */
+			}
+
+			.innertube {
+				margin: 15px; /* Padding for content */
+				margin-top: 0;
+			}
+
+			p {
+				color: #555;
+			}
+
+			nav ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			nav ul a {
+				color: darkgreen;
+				text-decoration: none;
+			}
+
+			body{
+			  background:#FCF4F4;
+			  padding:75px;
+			  text-align:center;
+			  font-family: 'Playfair Display', sans-serif;
+			}
+
+			{
+				-webkit-transition-property: all;
+				-webkit-transition-duration: .2s;
+			  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+				-moz-transition-property: all;
+			  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+			}
+
+			.btn{
+			  color:#000000;
+			  background:#ffffff;
+			  padding:10px 20px;
+			  font-size:12px;
+			  text-decoration:none;
+			  letter-spacing:2px;
+			  text-transform:uppercase;
+			}
+
+			.btn:hover{
+			  border:none;
+			  background:rgba(0, 0, 0, 0.4);
+			  background:#DAE1E9;
+			  padding:20px 20px; #000;
+			  color:#000000;
+			}
+
+		</style>
